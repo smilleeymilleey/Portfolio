@@ -1,0 +1,31 @@
+.capabilities {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: grey;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-auto-rows: 1fr;
+    
+}
+
+.capabilities > div {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+    
+}
+
+#contact {
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
