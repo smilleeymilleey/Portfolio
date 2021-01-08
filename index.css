@@ -28,6 +28,20 @@ a.anchor {
   text-transform: capitalize;
 }
 
+.fa-linkedin-square:before {
+  color: #333;
+}
+
+.fa-github-square:before {
+  color: #333;
+}
+
+.fa-twitter-square:before {
+  color: #333;
+  
+}
+
+
 #splash{
   background-image: url("https://cdn.pixabay.com/photo/2018/07/13/04/51/marble-3534940_960_720.jpg");
   background-size: cover;
@@ -36,7 +50,7 @@ a.anchor {
   margin-top: 50px;
   padding-top: 15%;
   padding-bottom: 50px;
-  color: #fff;
+  color: #333;
   font-size: 3em;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                0px 8px 13px rgba(0,0,0,0.5),
@@ -158,12 +172,12 @@ a.anchor {
 }
 
 #contact{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/contact.jpg);
+  
   background-position: center;
   background-size: cover;
   height: 100%;
   padding-bottom: 50px;
-  color: #fff;
+  background-color: lightgrey;
 }
 
   #contact h1{
