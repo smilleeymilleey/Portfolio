@@ -8,6 +8,7 @@
 
 body{
   font-family: "Ubuntu", sans-serif;
+
 }
 
 a.anchor {
@@ -28,7 +29,7 @@ a.anchor {
 }
 
 #splash{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/home.jpg);
+  background-image: url("https://cdn.pixabay.com/photo/2018/07/13/04/51/marble-3534940_960_720.jpg");
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -46,6 +47,10 @@ a.anchor {
     font-size: 2em;
   }
 
+
+  
+}
+}
   #splash a{
     color: #fff;
   }
@@ -55,13 +60,13 @@ a.anchor {
   }
 
 #portfolio{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/portfolio.jpg);
+  
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 100%;
   padding-bottom: 50px;
-  color: #fff;
+  background-color: lightgrey;
 }
 
   #portfolio h1{
@@ -117,12 +122,12 @@ a.anchor {
 }
 
 #about{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/about.jpg);
+  
   background-position: center;
   background-size: cover;
   height: 100%;
   padding-bottom: 50px;
-  color: #fff;
+  background-color: lightgrey;
 }
 
   #about h1{
