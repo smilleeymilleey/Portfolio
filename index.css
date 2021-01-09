@@ -43,6 +43,7 @@ a.anchor {
 
 #splash{
   background-image: url("https://cdn.pixabay.com/photo/2018/07/13/04/51/marble-3534940_960_720.jpg");
+ 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -221,11 +222,8 @@ a.anchor {
     text-decoration: none;
   }
 
-.contactRow {
-    display: flex;
-    align-items: center;
-    padding-left: 40%;
-  
+.col-lg-100{
+    text-align: center;
    
 
 }
