@@ -1,5 +1,4 @@
 
-
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu|Roboto:400,700);
 
 /*html, body{
@@ -28,15 +27,15 @@ a.anchor {
   text-transform: capitalize;
 }
 
-.fa-linkedin-square:before {
+.fa-linkedin-square{
   color: #333;
 }
 
-.fa-github-square:before {
+.fa-github-square{
   color: #333;
 }
 
-.fa-twitter-square:before {
+.fa-twitter-square {
   color: #333;
   
 }
@@ -72,6 +71,11 @@ a.anchor {
   #splash a:hover{
     color: #e7e7e7;
   }
+
+.portfolio {
+ text-align: center;
+}
+
 
 #portfolio{
   
@@ -217,6 +221,14 @@ a.anchor {
     text-decoration: none;
   }
 
+.contactRow {
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+  
+   
+
+}
 hr{
   width: 25%;
 }
