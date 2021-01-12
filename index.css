@@ -84,7 +84,7 @@ a.anchor {
   background-size: cover;
   background-position: center;
   height: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   background-color: lightgrey;
 }
 
