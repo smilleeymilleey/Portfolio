@@ -4,85 +4,61 @@ import "./Home.css";
 function Home() {
     return (
        
-       <div>
-
+       <div className="portfolio__Container">
         <title>Portfolio Page</title>
-
-       
-        <link rel="stylesheet" href="css/style.css"/>
-    
-        
-    
-    
     
       {/* Navbar */}
 
-        <nav class="navbar">
-          <div class="container">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about-link">About</a></li>
-                <li><a href="#portfolio-link">Portfolio</a></li>
-                <li><a href="#blog-link">Blog</a></li>
-                <li><a href="#contact-link">Contact</a></li>
-              </ul>
-          </div>
+        <nav className="navbar__Container">
+            <ul className="navbar">
+              <li><a href="#about-link">About</a></li>
+              <li><a href="#portfolio-link">Portfolio</a></li>
+              <li><a href="#blog-link">Blog</a></li>
+              <li><a href="#contact-link">Contact</a></li>
+            </ul>
         </nav>
 
-      {/* end navbar */}
+      {/*End navbar */}
     
-        {/* <!-- Start Splash Section  --> */}
+      {/*Start Header Section */}
 
-        <a class="anchor" id="home"></a>
-        <div id="splash" class="container-fluid">
+      
+        <section id="splash" className="header__Container">
           <div class="row">
-            <div class="col-lg-12 text-center">
               <h1>Caitlyn Miley</h1>
-              <hr />
-              <p>
-                Web Developer 
-              </p>
-              <p>
-                <a href="https://github.com/smilleeymilleey" id="github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-                <a href="https://uk.linkedin.com/in/caitlyn-miley1" id="linkedin" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                <a href="https://twitter.com/smilleymilleey" id="twitter"target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-              </p>
-            </div>
+                <p>Web Developer</p>
+                  <p>
+                    <a href="https://github.com/smilleeymilleey" id="github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+                    <a href="https://uk.linkedin.com/in/caitlyn-miley1" id="linkedin" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                    <a href="https://twitter.com/smilleymilleey" id="twitter"target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                  </p>
           </div>
-        </div>
+        </section>
 
-        {/* <!-- End Splash Section  --> */}
-        <a class="anchor" id="about-link"></a>
-        <div id="about" class="container-fluid text-center">
-              <h1 class="portfolio">About</h1>
-              <hr />
-              <div class="container">
-                <div class="row row-eq-height">
-                  <div class="col-lg-1"></div> 
-                  <div class="col-lg-3">
-                
-                  </div>
-                  <div id="white-bg" class="about">
-                    <p class="aboutDescription">
+        {/* End Header Section */}
+
+        {/* Start About Section */}
+      
+        <section id="about" className="about__Container">
+            <h1>About</h1>
+              <div id="white-bg" class="about__Paragraph">
+                  <p>
                        Bachelors of Science & Engineering. Full Stack Developer Certification from Southern Methodist University. Capabilities include Javascript, React, MySQL, MongoDB, JQuery, Bootstrap, API Integration, JSON, AJAX, HTML, CSS, Github.
-                      
-                      
-                    </p>
-                  </div>
-                </div>
+                  </p>
               </div>
-        </div>
+        </section>
+              
+        {/* End About Section */}
 
+        {/* Start Portfolio Section */}
 
-        {/* <!-- Start portfolio Section  --> */}
-
-
-        <div id="portfolio" class="container-fluid2">
-          <div class="row">
-              <h1 class="portfolio">Portfolio</h1>
-             
+        <section id="portfolio" class="portfolio__Container">
+          <div className="portfolio__Title">
+              <h1 >Portfolio</h1>
+          </div>
              {/* Twitter Clone Thumbnail */}
-              <div class="container">
-                <div class="row">
+
+                <div class="twitter_Project">
                     <div class="thumbnail">
                       <a href="https://twitter-clone-1ef21.web.app" target="_blank"></a>
                         <img class="img-responsive" src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Logo.png" alt="twitter-clone"></img>
@@ -92,20 +68,15 @@ function Home() {
                       </div>
                    </div> 
                   </div>
-                </div>
-              </div>
-            </div>
-         
-      
-
-
-        {/* <!-- End portfolio Section  --> */}
+        </section>
+            
+      {/* // end of portfolio section */}
         
 
 
-        {/* <!-- Blog Section --> */}
+      {/* // /*  Blog Section  */}
        
-        <div id="blog" class="blog-container">
+        <section id="blog" class="blog-container">
           <div class="blog-row">
               <h1 class="blog">Blog</h1>
            
@@ -131,18 +102,17 @@ function Home() {
               
                 
           </div>
-        </div>
+        </section>
     
 
 
-        {/* <!-- Start Contact Section --> */}
+        {/* /* <!-- Start Contact Section --> */}
 
 
 
        
         <section id="contact" class="contact__Container">
           <h1>Contact</h1>
-        
           <div class="container">
             <div class="contact__Row">
              
