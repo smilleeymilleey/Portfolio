@@ -1,7 +1,25 @@
 import React from 'react'
 import "./Home.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
+
+
+
+
 
 function Home() {
+  
+    function toggleNav() {
+      var nav = document.getElementById("navbar");
+      if (nav.className === "navbar") {
+          nav.className += "responsive";
+        } else {
+          nav.className = "navbar";
+        }
+
+    };
+
     return (
        
        <div className="portfolio__Container">
@@ -10,13 +28,19 @@ function Home() {
       {/* Navbar */}
 
         <nav className="navbar__Container">
-            <ul className="navbar">
+            <ul id="navbar" className="navbar">
               <li><a href="#about-link">About</a></li>
               <li><a href="#portfolio-link">Portfolio</a></li>
               <li><a href="#blog-link">Blog</a></li>
               <li><a href="#contact-link">Contact</a></li>
+              <div className="icon" onClick={toggleNav}> 
+                <FontAwesomeIcon className="hamburger__Icon" icon={faBars} />
+              </div>
             </ul>
+
         </nav>
+
+
 
       {/*End navbar */}
     
@@ -24,7 +48,7 @@ function Home() {
 
       
         <section id="splash" className="header__Container">
-          <div class="row">
+          <div className="row">
               <h1>Caitlyn Miley</h1>
                 <p>Web Developer</p>
                   <p>
@@ -114,28 +138,6 @@ function Home() {
         <section id="contact" class="contact__Container">
           <h1>Contact</h1>
           <div class="container">
-            <div class="contact__Row">
-             
-    
-                <a href="https://linkedin.com/in/caitlyn-miley1"></a>
-               
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              
-            
-                <a href="https://github.com/smilleeymilleey"></a>
-                
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
-             
-             
-               
-                <a href="mailto:cmiley@protonmail.com"></a>
-                    
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-            
-            </div>
             </div>
              
         </section> 
