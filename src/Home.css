@@ -1,0 +1,36 @@
+
+:root {
+  --primary: #ccb3ff;
+  --secondary: #e6ffb3;
+}
+
+
+.navbar__Container {
+  background-color: var(--primary);
+  color: white;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30px;
+  overflow: hidden;
+}
+
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 12px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: var(--secondary);
+}
