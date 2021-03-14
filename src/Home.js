@@ -2,7 +2,9 @@ import React from 'react'
 import "./Home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-
+import GitHubIcon from '@material-ui/icons/GitHub';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 
 
@@ -10,6 +12,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   
+
+  // turs the navbar into a hamburger menue at breakpoint 600
+
+
     function toggleNav() {
       var nav = document.getElementById("navbar");
       if (nav.className === "navbar") {
@@ -45,20 +51,22 @@ function Home() {
       {/*End navbar */}
     
       {/*Start Header Section */}
-
-      
-        <section id="splash" className="header__Container">
-          <div className="row">
-              <h1>Caitlyn Miley</h1>
-                <p>Web Developer</p>
-                  <p>
-                    <a href="https://github.com/smilleeymilleey" id="github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-                    <a href="https://uk.linkedin.com/in/caitlyn-miley1" id="linkedin" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                    <a href="https://twitter.com/smilleymilleey" id="twitter"target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-                  </p>
-          </div>
-        </section>
-
+            <section class="header__Card">
+              <div id="name__Image__Container">
+                <img src="me.png" alt="Caitlyn Miley"></img>
+                <h1>Caitlyn Miley</h1>
+                <p class="card__Title">Web Developer</p>
+                <p>Texas A&M University-Commerce </p>
+              </div>
+             <div id="social__Media">
+              <a href="#"><GitHubIcon></GitHubIcon></a>
+              <a href="#"><TwitterIcon></TwitterIcon></a>
+              <a href="#"><LinkedInIcon></LinkedInIcon></a>
+             </div>
+              <p><button>Contact</button></p>
+            </section>
+            
+        
         {/* End Header Section */}
 
         {/* Start About Section */}

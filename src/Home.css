@@ -5,6 +5,7 @@
 }
 
 /* styling the navbar */
+
 .navbar__Container {
   background-color: var(--primary);
   color: white;
@@ -48,20 +49,10 @@ li a:hover:not(.active) {
 
 
 
-
-
-
 /* Hide the link that should open and close the topnav on small screens */
 .navbar .icon {
   display: none;
 }
-
-
-
-
-
-
-
 
 
 /* media query for responsive navbar */
@@ -89,4 +80,25 @@ li a:hover:not(.active) {
     display: block;
     text-align: left;
   }
+
+/* Header Section Styling */
+
+.header__Card {
+
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#name__Image__Container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+img {
+  height: 20px;
+}
+
+
 }
