@@ -15,7 +15,7 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -37,24 +37,16 @@ body {
   color: #f1f1f1;
 }
 
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+#caitlyn__Miley h1, p{
+  color: white;
 }
-
-
 
 
 
 /* home */
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  border-radius: 50%;
+.header__Container {
+  background-image: url("https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/159956812_768266453809986_6078118974693888998_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=106&_nc_ohc=ENaHbQHo7D0AX8MfunF&oh=475e77e234d872e000852fbcbd81cf0a&oe=6076EA74");
 }
 
 

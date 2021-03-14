@@ -24,7 +24,11 @@ return (
 
          {/* Navbar Start */}
 
-         <div class="sidenav">
+         <div className="sidenav">
+           <div id="caitlyn__Miley">
+             <h1 id="title">Caitlyn Miley</h1>
+             <p>Web Developer</p>
+           </div>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
@@ -33,10 +37,6 @@ return (
           <a href="#blog">Blog</a>
           <a href="#resume">Resume</a>
           
-        </div>
-
-        <div class="main">
-          <h2>Sidebar</h2>
         </div>
 
       {/*End navbar */}
