@@ -6,50 +6,37 @@
   --highlight: #e6ffb3;
 }
 
-/* styling the navbar */
-
-
-body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidenav {
-  height: 100%;
-  width: 300px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-#caitlyn__Miley h1, p{
-  color: white;
-}
-
 
 
 /* home */
 
-.header__Container {
+.home__Container {
+  color: white;
+  padding: 25%;
+  margin: auto;
   background-image: url("https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/159956812_768266453809986_6078118974693888998_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=106&_nc_ohc=ENaHbQHo7D0AX8MfunF&oh=475e77e234d872e000852fbcbd81cf0a&oe=6076EA74");
 }
 
+#motto {
+  text-align: center;
+  font-size: 70px;
+  margin: -20%;
+  font-family: sans-serif;
+  -webkit-text-stroke: 2px darkcyan; /* width and color */
 
+}
+
+#make__Things {
+  color: lightblue;
+  font-weight: bolder;
+}
+
+
+#make__Difference {
+  text-decoration: underline;
+  color: lightblue;
+  font-weight:bolder;
+}
 
 
 
