@@ -1,25 +1,33 @@
 
 :root {
-  --primary: #ccb3ff;
-  --secondary: #e6ffb3;
+  --primary: white;
+  --secondary: orange;
+
+  --highlight: #e6ffb3;
 }
 
-<<<<<<< HEAD
 /* styling the navbar */
-=======
->>>>>>> parent of 7a64b52 (created a navbar toggle using media querys and refactord classnames using bem convention)
+
 
 .navbar__Container {
   background-color: var(--primary);
   color: white;
   
+  
 }
 
 ul {
-  list-style-type: none;
+  position: fixed;
+  width: 240px;
+  left: -105%;
+  top: 0;
   margin: 0;
-  padding: 30px;
-  overflow: hidden;
+  height: 100%;
+  height: calc(100% + 60px);
+  padding-bottom: 60px;
+  background-color: pink;
+  z-index: 999;
+  will-change: left;
 }
 
 
@@ -33,11 +41,12 @@ li a {
   text-align: center;
   padding: 1px 12px;
   text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 li a:hover:not(.active) {
   background-color: var(--secondary);
-<<<<<<< HEAD
 }
 
 
@@ -48,7 +57,39 @@ li a:hover:not(.active) {
 }
 
 
+
+
+  .navbar .responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+/* Header Section Styling */
+.header__Container {
+  background-color: var(--secondary) ;
+  color: white;
+  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
 /* media query for responsive navbar */
+
 
 @media screen and (max-width: 600px) {
   .navbar li:not(:first-child) {display: none;}
@@ -68,50 +109,6 @@ li a:hover:not(.active) {
     top: 0;
   }
 
-  .navbar .responsive li {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 
 
-
-/* Header Section Styling */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-}
-
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
-
-=======
->>>>>>> parent of 7a64b52 (created a navbar toggle using media querys and refactord classnames using bem convention)
 }
