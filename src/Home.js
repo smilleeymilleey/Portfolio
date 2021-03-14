@@ -28,8 +28,9 @@ function Home() {
 
     return (
        
-       <div className="portfolio__Container">
+    <div>
         <title>Portfolio Page</title>
+    
     
       {/* Navbar */}
 
@@ -50,26 +51,41 @@ function Home() {
 
       {/*End navbar */}
     
-      {/*Start Header Section */}
-            <section class="header__Card">
-              <div id="name__Image__Container">
-                <img src="me.png" alt="Caitlyn Miley"></img>
-                <h1>Caitlyn Miley</h1>
-                <p class="card__Title">Web Developer</p>
-                <p>Texas A&M University-Commerce </p>
-              </div>
-             <div id="social__Media">
-              <a href="#"><GitHubIcon></GitHubIcon></a>
-              <a href="#"><TwitterIcon></TwitterIcon></a>
-              <a href="#"><LinkedInIcon></LinkedInIcon></a>
-             </div>
-              <p><button>Contact</button></p>
-            </section>
+      {/* Start Header Section */} 
+
+     
+      <h2>User Profile Card</h2>
+
+          <div className="card">
+            <img src="me.png" alt="John"></img>
+            <h1>John Doe</h1>
+            <p className="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <div>
+              <a href="#"><i class="fa fa-dribbble"></i></a> 
+              <a href="#"><i class="fa fa-twitter"></i></a>  
+              <a href="#"><i class="fa fa-linkedin"></i></a>  
+              <a href="#"><i class="fa fa-facebook"></i></a> 
+            </div>
+            <p><button>Contact</button></p>
+          </div>
+
+
+
+
+
+ {/*            
+//               <a href="#"><GitHubIcon></GitHubIcon></a>
+//               <a href="#"><TwitterIcon></TwitterIcon></a>
+//               <a href="#"><LinkedInIcon></LinkedInIcon></a>
+//              </div>
+//               <p><button>Contact</button></p> */}
+            
             
         
         {/* End Header Section */}
 
-        {/* Start About Section */}
+      {/* Start About Section */}
       
         <section id="about" className="about__Container">
             <h1>About</h1>
@@ -149,7 +165,7 @@ function Home() {
             </div>
              
         </section> 
-        </div>
+        
       
        
        
@@ -157,7 +173,7 @@ function Home() {
               
     
     
-
+</div>
 
 
 
