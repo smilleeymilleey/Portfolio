@@ -12,17 +12,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
 
-  function toggleNav() {
 
-    // turns navbar into a hamburger menu at breakpoint 600
+    //X to close navbar
 
-    var nav = document.getElementById("navbar");
-    if (nav.className === "navbar") {
-        nav.className += "responsive";
-      } else {
-        nav.className = "navbar";
-      }
-    }
+ 
   
 return (
  
@@ -30,25 +23,26 @@ return (
 
 
          {/* Navbar Start */}
-        <nav className="navbar__Container">
-            <ul className="navbar">
-              
-           
-              <li><a href="#contact-link">Contact</a></li>
-              <li><a href="#About-link">About</a></li>
-              <li><a href="#Home-link">Home</a></li>
-             
-              <div className="icon" onClick={toggleNav}> 
-                <FontAwesomeIcon className="hamburger__Icon" icon={faBars} />
-              </div>
-            </ul>
-        </nav>
- 
+
+         <div class="sidenav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <a href="#blog">Blog</a>
+          <a href="#resume">Resume</a>
+          
+        </div>
+
+        <div class="main">
+          <h2>Sidebar</h2>
+        </div>
 
       {/*End navbar */}
 
     
-      {/* /* Start Header Section */ }
+      {/* /* Start Home Section */ }
 
 
       <div className="header__Container">

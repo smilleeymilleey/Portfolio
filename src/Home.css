@@ -1,7 +1,7 @@
 
 :root {
   --primary: white;
-  --secondary: orange;
+  --secondary: white;
 
   --highlight: #e6ffb3;
 }
@@ -9,70 +9,45 @@
 /* styling the navbar */
 
 
-.navbar__Container {
-  background-color: var(--primary);
-  color: white;
-  
-  
+body {
+  font-family: "Lato", sans-serif;
 }
 
-ul {
-  position: fixed;
-  width: 240px;
-  left: -105%;
-  top: 0;
-  margin: 0;
+.sidenav {
   height: 100%;
-  height: calc(100% + 60px);
-  padding-bottom: 60px;
-  background-color: pink;
-  z-index: 999;
-  will-change: left;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 1px 12px;
+.sidenav a {
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 }
 
-li a:hover:not(.active) {
-  background-color: var(--secondary);
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 }
 
 
 
-/* Hide the link that should open and close the topnav on small screens */
-.navbar .icon {
-  display: none;
-}
 
 
-
-
-  .navbar .responsive li {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-
-
-/* Header Section Styling */
-.header__Container {
-  background-color: var(--secondary) ;
-  color: white;
-  
-}
+/* home */
 
 img {
   display: block;
@@ -91,24 +66,8 @@ img {
 /* media query for responsive navbar */
 
 
-@media screen and (max-width: 600px) {
-  .navbar li:not(:first-child) {display: none;}
-  .navbar .icon {
-    float: right;
-    display: block;
-  }
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
-@media screen and (max-width: 600px) {
-  .navbar .responsive {
-    position: relative;
-  }
-  .navbar .responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-
-
-}
