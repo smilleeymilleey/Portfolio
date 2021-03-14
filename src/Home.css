@@ -4,19 +4,16 @@
   --secondary: #e6ffb3;
 }
 
+<<<<<<< HEAD
 /* styling the navbar */
+=======
+>>>>>>> parent of 7a64b52 (created a navbar toggle using media querys and refactord classnames using bem convention)
 
 .navbar__Container {
   background-color: var(--primary);
   color: white;
   
 }
-
-.navbar {
-  overflow: hidden;
-
-}
-
 
 ul {
   list-style-type: none;
@@ -26,13 +23,8 @@ ul {
 }
 
 
-.navbar li {
-  float: left;
-  display: block;
-  color: var(--primary);
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
+li {
+  float: right;
 }
 
 li a {
@@ -45,6 +37,7 @@ li a {
 
 li a:hover:not(.active) {
   background-color: var(--secondary);
+<<<<<<< HEAD
 }
 
 
@@ -119,4 +112,6 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
+=======
+>>>>>>> parent of 7a64b52 (created a navbar toggle using media querys and refactord classnames using bem convention)
 }
