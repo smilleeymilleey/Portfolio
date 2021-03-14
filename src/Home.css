@@ -11,6 +11,9 @@
 /* home */
 
 .home__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   color: white;
   padding: 25%;
   margin: auto;

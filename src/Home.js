@@ -1,10 +1,6 @@
 import React from 'react'
 import "./Home.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import GitHubIcon from '@material-ui/icons/GitHub';
-// import TwitterIcon from '@material-ui/icons/Twitter';
-// import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
 
 
 
@@ -12,10 +8,6 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
 
-
-    //X to close navbar
-
- 
   
 return (
  

@@ -1,10 +1,14 @@
 import React from 'react'
+import "./About.css";
 
 function About() {
     return (
-        <div>
+        <section className="about__Container">
             
-        </div>
+         <div>About</div>   
+          
+        </section>
+
     )
 }
 
