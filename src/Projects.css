@@ -1,29 +1,22 @@
 
 /* text and title */
 
- .projects__Div {
-    margin: 0;
-    padding: 30px;
-    font-size: 40px;
-    background-color: lightblue;
-    color: white;
-    margin-left: 15%;
-    display: block;
-   
-    
-  
-}
+
 
 .projects__Div__Container {
-  margin-right: 15%;
-  padding: 30px;
+  
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 1px 1px 1px 1px;
   font-size: 40px;
+  display: block;
+
   background-color: black;
   text-decoration: underline darkcyan;
   -webkit-text-stroke: 2px darkcyan;
   font-weight: bold;
   color: white;
-  display: block;
+  
 
  
 }

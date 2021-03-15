@@ -10,6 +10,7 @@ function Projects() {
 
     
         <div id="projects" className="projects__Div">
+            
             <div className="projects__Div__Container">
                 <h1>
               Projects
