@@ -4,7 +4,6 @@ import './Contact.css';
 function Contact() {
     return (
         <div>
-            <h1>Contact TEST!! </h1>
         </div>
     )
 }

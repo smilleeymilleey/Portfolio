@@ -7,6 +7,7 @@ function About() {
 
          <div className="about__Div">
             <h1 className="about__Text">About</h1> 
+            </div>
 
             <div className="paragraph__Container">
             <p className="paragraph">I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many twists and turns - from substitute teacher to web developer- I've never stopped engaging my passion to help others and solve 
@@ -21,7 +22,7 @@ function About() {
 
 
           
-   </div>
+   
 
     )
 }

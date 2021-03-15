@@ -14,6 +14,7 @@ function Projects() {
                 <h1>
               Projects
             </h1>
+            </div>
 
 
       
@@ -37,7 +38,7 @@ function Projects() {
       
                         
 
-      </div>
+      
 
 
 
