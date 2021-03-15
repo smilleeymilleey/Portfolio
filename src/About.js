@@ -4,8 +4,9 @@ import "./About.css";
 function About() {
     return (
         <section className="about__Container">
-            
-         <div>About</div>   
+
+         <div className="about__Title">About</div>   
+         
           
         </section>
 
