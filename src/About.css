@@ -1,11 +1,16 @@
+
+
+
+
+
 .about__Div {
     margin: 0;
     padding: 30px;
     font-size: 40px;
     background-color: lightblue;
     color: white;
-    margin-left: 15%;
-    
+    display: block;
+   
     
    
    
@@ -25,6 +30,8 @@
 
     background-color: white;
     box-shadow: 10px 8px 5px grey;
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 
@@ -35,4 +42,36 @@
     font-family: sans-serif;
     text-align: left;
     margin-left: 1%;
+}
+
+
+
+
+@media only screen and (max-width: 479px){
+    #about { 
+        width: 90%; 
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    #about { width: 90%; }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .paragraph { 
+        display: block;
+    }
+
+    .paragraph__Container {
+        
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #about { width: 90%; }
 }

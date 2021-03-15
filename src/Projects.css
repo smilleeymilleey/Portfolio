@@ -8,8 +8,8 @@
     background-color: lightblue;
     color: white;
     margin-left: 15%;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+   
     
     
    
@@ -27,8 +27,7 @@
 }
 
 /* project cards */
-
-
+  
     body {
         background: lightblue;
         text-align: center;
@@ -37,81 +36,76 @@
       .card {
         background: white;
         border-radius: 2px;
-        display: inline-block;
+        
         height: 300px;
         margin-left: 43%;
         margin-top: 10%;
-        
         position: relative;
         padding-top: 20%;
-        
-        width: 600px;
-        display: flex;
-        flex-direction: row;
-       
-      }
-      
-      .card-1 {
+        padding-bottom: 20%;
+    
+        width: 300px;
+        display: block;
+        justify-content: space-between;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+        
+
       }
       
-      .card-1:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-      }
-
+     
       .card:hover {
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
       }
 
-      .card-2:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   
+      .card__Row {
+        display: table;
+        width: 100%;
+        table-layout: fixed; 
+        border-spacing: 10px;
       }
-      
-      .card-3:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-      }
-      .card-2 {
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-      }
-      
-      .card-3 {
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-      }
-      
-      
 
+      .card__Row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .card__Column {
+        color: #fff;
+        font: 100 24px/100px sans-serif;
+        height: 150px;
+        text-align: center;
+        
 
+      }
 
+      div.card {
+        padding-bottom: 20%;
+      }
+
+      .card__Column div {
+        height: 100%;
+        width: 300px;
+      }
+
+      .card__Row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
 
 
 
 
 
 /* media querries */
-
-
- @media (max-width: 576px) {  
-    .xs {color:red;font-weight:bold;}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
   }
-  
-  /* Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) and (max-width:768px) {  
-    .sm {color:red;font-weight:bold;}
-  }
-   
-  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-  @media (min-width: 768px) and (max-width:992px) {  
-   .md {color:red;font-weight:bold;}
-  }
-   
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width:1200px) { 
-   .lg {color:red;font-weight:bold;}
-  }
-   
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {  
-      .xl {color:red;font-weight:bold;}
-  }
-   
