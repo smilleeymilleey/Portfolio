@@ -10,7 +10,8 @@ function Projects() {
 
     
         <div id="projects" className="projects__Div">
-            <h1 className="projects__Text">
+            <div className="projects__Div__Container">
+                <h1>
               Projects
             </h1>
 
@@ -36,7 +37,7 @@ function Projects() {
       
                         
 
-      
+      </div>
 
 
 
