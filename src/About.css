@@ -24,7 +24,7 @@
 .paragraph__Container {
 
     background-color: white;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 8px 5px grey;
 
 }
 
@@ -32,4 +32,7 @@
     color: black;
     padding: 20px;
     margin: auto;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 1%;
 }
