@@ -13,7 +13,7 @@ function Home() {
 return (
  
   
-      <div className="home__Container">
+      <div id="home__Container">
           <h1 id="motto">"I want to <span id="make__Things">make things</span> that <span id="make__Difference"> make a difference"</span> <br></br>
            -Caitlyn Miley</h1>
          
