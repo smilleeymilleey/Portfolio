@@ -1,6 +1,6 @@
 #contact__Div__Container {
   
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     margin-top: 20%;
     padding: 10px 1px 1px 1px;
     font-size: 40px;
@@ -23,7 +23,9 @@
     background-color: black;
     color: white;
     margin-left: 10%;
+    margin-top: 30%;
     padding-bottom: 5%;
+    
   }
 
 
