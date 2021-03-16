@@ -18,7 +18,7 @@
   }
 
   #home__Icon {
-    color: white;
+    color: black;
     font-size: 30px;
 
   }
@@ -39,7 +39,7 @@
     margin: 0;
     padding: 0;
     width: 250px;
-    background-color: black;
+    background-color: darkcyan;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -56,8 +56,8 @@
   }
    
   .sidebar a.active {
-    background-color: darkcyan;
-    color: white;
+    background-color: white;
+    color: black;
   }
   
   .sidebar a:hover:not(.active) {
