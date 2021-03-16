@@ -12,7 +12,7 @@ function Projects() {
        
 
     
-        <div id="projects" className="projects__Div">
+        <div id="projects">
 
         <div id="projects__Div__Container">
             <h1>
