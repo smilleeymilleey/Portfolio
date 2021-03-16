@@ -1,0 +1,38 @@
+#contact__Div__Container {
+  
+    margin-bottom: 5%;
+    margin-top: 20%;
+    padding: 10px 1px 1px 1px;
+    font-size: 40px;
+    display: block;
+    background-color: black;
+    text-decoration: underline darkcyan;
+    -webkit-text-stroke: 2px darkcyan;
+    font-weight: bold;
+    color: white;
+   
+  }
+
+  a {
+    color: white;
+    padding: 10px;
+  }
+
+  /* EXAMPLE FOR RESPONSIVE STYLING VIEW MARGIN & FIRST CONTAINER */
+  #contact {
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+    padding-bottom: 5%;
+  }
+
+
+  #footer__Text {
+    
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  /* add media queries with no margin since the menue turns into a nav bar */
