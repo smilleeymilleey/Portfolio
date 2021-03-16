@@ -21,14 +21,25 @@ function Projects() {
       
             <div className="card__Row">
                 <div className="card__Column">
-                    <div class="card"></div>
+                    <div className="card">
+                        <img src="amazonclone.jpg"></img>
+
+                        <div className="card__Title">
+                            <h1 className="text__Title">Amazon Clone</h1>
+
+                        </div>
+
+
+
+
+                    </div>
 
                 </div>
                 <div className="card__Column">
-                    <div class="card"></div>
+                    <div className="card"></div>
                 </div>
                 <div className="card__Column">
-                    <div class="card"></div>
+                    <div className="card"></div>
                 </div>
 
                
