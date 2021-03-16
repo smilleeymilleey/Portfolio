@@ -24,6 +24,7 @@ function Projects() {
   
         <div className="card__Row">
             <div className="card__Column">
+                
                 <div className="card">
 
                   

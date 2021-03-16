@@ -4,13 +4,35 @@
     font-family: "Lato", sans-serif;
   }
   
-.Caitlyn {
+#Caitlyn {
   color: white;
-  
-  
   display: block;
+  padding: 10%;
 
 }
+
+/* styling icons */
+  #person__Icon {
+    color:lightblue;
+    font-size: 30px;
+  }
+
+  #home__Icon {
+    color: white;
+    font-size: 30px;
+
+  }
+
+  #web__Icon {
+    color: lavender;
+    font-size: 30px;
+  }
+
+  #mail__Icon {
+    color: tan;
+    font-size: 30px;
+     
+  }
 
 
   .sidebar {
@@ -30,6 +52,7 @@
     font-size: larger;
     text-decoration: none;
     font-family: sans-serif;
+    font-weight: bold;
   }
    
   .sidebar a.active {
