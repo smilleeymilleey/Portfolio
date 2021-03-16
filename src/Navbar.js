@@ -8,7 +8,7 @@ import MailIcon from '@material-ui/icons/Mail';
 function Navbar() {
     return (
        
-      <div id="navbar__Container">
+      <nav id="navbar__Container">
 
           <div class="sidebar">
             <div id="Caitlyn">
@@ -22,7 +22,7 @@ function Navbar() {
         </div>
         
         
-  </div>
+  </nav>
 
 
 
