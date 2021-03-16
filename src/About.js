@@ -10,6 +10,10 @@ function About() {
             </div>
 
             <div className="paragraph__Container">
+                <blockquote>
+
+                Mission-driven full stack developer with a passion for thoughtful UI design, collaboration, and teaching.
+                </blockquote>
             <p className="paragraph">I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many twists and turns - from substitute teacher to web developer- I've never stopped engaging my passion to help others and solve 
 
             <br></br>

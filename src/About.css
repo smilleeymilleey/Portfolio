@@ -19,11 +19,24 @@
    
 }
 
+
+blockquote {
+    border-left: solid darkcyan;
+    color: darkcyan;
+    font-size: 125%;
+    font-weight: 400;
+    margin: 10px 15;
+    padding-left: 1rem;
+    padding-top: 10px;
+
+}
+
 .about__Text {
     text-align: center;
     text-decoration: underline darkcyan;
     -webkit-text-stroke: 2px darkcyan;
     font-weight: bold;
+    
     
 
 }
