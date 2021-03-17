@@ -12,4 +12,4 @@ Technologies used:
 HTML, CSS, Javascript, React, Netlify
 
 
-https://caitlynmiley.netlify.app
+https://smilleeymilleey.github.io/portfolio/
