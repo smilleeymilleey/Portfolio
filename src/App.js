@@ -5,6 +5,7 @@ import Navbar from "./Navbar.js";
 import About from "./About.js";
 import Projects from "./Projects.js";
 import Footer from "./Footer.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

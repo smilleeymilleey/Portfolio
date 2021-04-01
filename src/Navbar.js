@@ -1,32 +1,29 @@
 import React from 'react';
 import "./Navbar.css";
-import HomeIcon from '@material-ui/icons/Home';
-import PersonIcon from '@material-ui/icons/Person';
-import WebIcon from '@material-ui/icons/Web';
-import MailIcon from '@material-ui/icons/Mail';
+import bootstrap from 'bootstrap';
+
 
 function Navbar() {
     return (
-       
-      <nav id="navbar__Container">
-
-          <div class="sidebar">
-            <div id="Caitlyn">
-              <h1>Caitlyn Miley</h1>
-              <h2>Web Developer</h2>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </div>
-          <a class="active" href="#home"><HomeIcon id="home__Icon"></HomeIcon> Home</a>
-          <a href="#about"><PersonIcon id="person__Icon"></PersonIcon> About</a>
-          <a href="#projects"><WebIcon id="web__Icon"></WebIcon> Projects</a>
-          <a href="#contact"><MailIcon id="mail__Icon"></MailIcon> Contact</a>
+          </div>
         </div>
+      </nav>
+
+
         
-        
-  </nav>
-
-
-
-
 
     )
 }

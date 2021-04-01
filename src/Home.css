@@ -1,10 +1,4 @@
 
-:root {
-  --primary: white;
-  --secondary: white;
-
-  --highlight: #e6ffb3;
-}
 
 
 
@@ -17,7 +11,7 @@
  
   color: white;
   padding: 25%;
-  margin-left: 10%;
+  
   background-image: url("https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/159956812_768266453809986_6078118974693888998_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=106&_nc_ohc=ENaHbQHo7D0AX8MfunF&oh=475e77e234d872e000852fbcbd81cf0a&oe=6076EA74");
   background-size: auto;
   

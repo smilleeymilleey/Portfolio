@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
     return (
-        <div id="about">
+    <div id="about">
 
          <div id="about__Div">
             <h1 className="about__Text">About</h1> 
@@ -20,7 +20,7 @@ function About() {
             <br></br>
             problems. As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company.</p>
         </div>
-        </div>  
+   </div>  
         
 
 

@@ -1,5 +1,5 @@
 #about {
-    margin-left: 10%;
+   
 }
 
 
@@ -46,8 +46,8 @@ blockquote {
 
     background-color: white;
     box-shadow: 10px 8px 5px grey;
-    margin-left: 20%;
-    margin-right: 20%;
+   
+    
 
 }
 
@@ -65,13 +65,20 @@ blockquote {
 
 @media only screen and (max-width: 479px){
     #about { 
-        width: 90%; 
+        margin-left: 0;
+        width: 100%; 
         display: block;
+        margin-right: 0;
     }
 }
 
 @media only screen and (max-width: 768px){
-    #about { width: 90%; }
+    #about {
+     width: 100%;
+     margin-left: 0;
+     margin-right: 0;
+    
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -86,8 +93,4 @@ blockquote {
         display: block;
         width: 100%;
     }
-}
-
-@media only screen and (max-width: 768px){
-    #about { width: 90%; }
 }

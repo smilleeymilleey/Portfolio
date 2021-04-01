@@ -12,7 +12,7 @@ function Projects() {
        
 
     
-        <div id="projects">
+    <div id="projects">
 
         <div id="projects__Div__Container">
             <h1>
@@ -28,7 +28,7 @@ function Projects() {
                 <div className="card">
 
                   
-                     <img href="https://e-commerce-34a07.web.app/" src={amazonclone} className="card__Image" alt="amazon-clone-website"></img>
+                     <img href="https://e-commerce-34a07.web.app/" src={amazonclone} className="card__Image" alt="amazon-clone-website"/>
                   
                     <div className="card__Title">
                         <h1 className="text__Title">Amazon Clone</h1>
@@ -38,7 +38,7 @@ function Projects() {
             <div className="card__Column">
                 <div className="card">
                    
-                    <img href="https://twitter-clone-1ef21.web.app" className="card__Image" src={twitter} alt="twitter-clone-website"></img>
+                    <img href="https://twitter-clone-1ef21.web.app" className="card__Image" src={twitter} alt="twitter-clone-website"/>
                     
                     <div className="card__Title">
                         <h1 className="text__Title">Twitter Clone</h1>
@@ -47,7 +47,7 @@ function Projects() {
             </div>
             <div className="card__Column">
                 <div className="card">
-                    <img href="https://soap.netlify.app/"className="card__Image" src={soap}alt="soap-e-commerce-website"></img>
+                    <img href="https://soap.netlify.app/"className="card__Image" src={soap}alt="soap-e-commerce-website"/>
                     <div className="card__Title">
                         <h1 className="text__Title">Soap E-Commerce </h1>
                     </div>

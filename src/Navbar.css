@@ -1,6 +1,6 @@
 
-  {
-    margin: 0;
+ * {
+    
     font-family: "Lato", sans-serif;
   }
   
@@ -61,7 +61,7 @@
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: #555;
+    background-color: lightblue;
     color: white;
   }
   
