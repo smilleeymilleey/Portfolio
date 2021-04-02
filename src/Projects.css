@@ -1,0 +1,17 @@
+.projects {
+    display: block;
+    margin: auto;
+}
+
+#projects__Div {
+
+    background-color: lightskyblue;
+    color:white;
+    margin-top: 0;
+    padding: 1%;
+}
+
+.projectsContainer {
+    background-color: lightblue;
+}
+

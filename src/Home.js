@@ -1,56 +1,29 @@
 import React from 'react'
 import "./Home.css";
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Button from 'react-bootstrap/Button';
 
-
-
-
+import Card from 'react-bootstrap/Card'
 
 
 
 function Home() {
-
-  
+ 
 return (
+  <div id="home__Cont">
   <Jumbotron>
-  
-  <h1 id="home">Hello, world! <br></br>
-    <Button variant="primary">Learn more</Button>
-  </h1>
+  <Card className="bg-dark text-white">
+  <Card.Img src="./me.png" alt="Card image" />
+  <Card.ImgOverlay>
+    <Card.Title>Card title</Card.Title>
+    <Card.Text>
+      This is a wider card with supporting text below as a natural lead-in to
+      additional content. This content is a little bit longer.
+    </Card.Text>
+    <Card.Text>Last updated 3 mins ago</Card.Text>
+  </Card.ImgOverlay>
+</Card>
 </Jumbotron>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-      // <div id="home">
-      //     <h1 id="motto">"I want to <span id="make__Things">make things</span> that <span id="make__Difference"> make a difference"</span> <br></br>
-      //      -Caitlyn Miley</h1>
-         
-      // </div>
-        
-
-     
-
-     
-              
-          
-       
-        
-     
-        
-
-
+</div>
 
     )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import "./Qualification.css";
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col';
@@ -8,14 +8,15 @@ import Button from 'react-bootstrap/Button';
 
 function Qualification() {
     return (
-    <div>
-    <div id="about__Div">
-        <h1 className="about__Text">Qualifications</h1>
-    </div>
-    
+    <div id="qualifyCont">
+        <div id="qualifications__Div">
+            <h1 className="about__Text">Qualifications</h1>
+        </div>
+
+ 
     <Container>
         <Row>
-        <Col>1 of 3
+        <Col>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
@@ -30,8 +31,8 @@ function Qualification() {
             
         
         </Col>
-        <Col>2 of 3
-        <Card style={{ width: '18rem' }}>
+        <Col>
+        <Card style={{ width: '18rem'}}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -45,7 +46,7 @@ function Qualification() {
         
         
         </Col>
-        <Col>3 of 3
+        <Col>
         <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>

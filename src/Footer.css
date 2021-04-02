@@ -1,13 +1,9 @@
 #contact__Div__Container {
   
     margin-bottom: 1%;
-    margin-top: 5%;
-    padding: 5px 1px 1px 1px;
     font-size: 40px;
-    display: block;
-    background-color: black;
-    text-decoration: underline darkcyan;
-    -webkit-text-stroke: 2px darkcyan;
+    
+    background-color: lightskyblue;
     font-weight: bold;
     color: white;
    
@@ -18,12 +14,15 @@
     padding: 10px;
   }
 
+  a:visited {
+    color: white !important;
+  } 
   /* EXAMPLE FOR RESPONSIVE STYLING VIEW MARGIN & FIRST CONTAINER */
   #contact {
-    background-color: black;
+    background-color: lightskyblue;
+    display: block;
+    margin: auto;
     color: white;
-  
-    margin-top: 10%;
     padding-bottom: 5%;
     
   }

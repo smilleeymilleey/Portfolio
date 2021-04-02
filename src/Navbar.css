@@ -2,24 +2,27 @@
  * {
     
     font-family: "Lato", sans-serif;
-  }
+ }
   
 #Caitlyn {
   color: white;
   display: block;
-  padding: 10%;
+ 
 
 }
 
 .container-fluid{
-  background-color: darkcyan;
-  padding: 1%;
+  background-color: lightskyblue;
   
 }
 
 .nav-link {
-  color: white;
-  font-size: 30px;;
+  color: white !important;
+  font-size: 30px;
+}
+
+.tog {
+  color: white !important;
 }
 
 #projects {
@@ -27,30 +30,3 @@
 }
 
 
-
-
-
-  div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  }
-
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-}

@@ -1,96 +1,20 @@
-#about {
-   
+.aboutLabel {
+    background-color: lightskyblue;
+    color:white;
+    margin-top: 0;
+    padding: 1%;
+}
+
+.aboutContainer{
+    background-color: lightblue;
+    padding-bottom: 10%;
 }
 
 
-
-
-#about__Div {
-    margin-bottom: 5%;
-    padding: 1px 1px 1px 1px;
-    font-size: 40px;
-    background-color: black;
-    color: white;
+.about-card {
     display: block;
-    
-   
-    
-   
-   
-}
-
-
-blockquote {
-    border-left: solid darkcyan;
-    color: darkcyan;
-    font-size: 125%;
-    font-weight: 400;
-    margin: 10px 15;
-    padding-left: 1rem;
-    padding-top: 10px;
-
-}
-
-.about__Text {
-    text-align: center;
-    text-decoration: underline darkcyan;
-    -webkit-text-stroke: 2px darkcyan;
-    font-weight: bold;
-    
-    
-
-}
-
-
-.paragraph__Container {
-
-    background-color: white;
-    box-shadow: 10px 8px 5px grey;
-   
-    
-
-}
-
-.paragraph {
-    color: black;
-    padding: 20px;
     margin: auto;
-    font-family: sans-serif;
-    text-align: left;
-    margin-left: 1%;
-}
-
-
-
-
-@media only screen and (max-width: 479px){
-    #about { 
-        margin-left: 0;
-        width: 100%; 
-        display: block;
-        margin-right: 0;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    #about {
-     width: 100%;
-     margin-left: 0;
-     margin-right: 0;
+    font-size: 20px;
     
-    }
 }
-
-@media only screen and (max-width: 768px){
-    .paragraph { 
-        display: block;
-        width: 100%;
-    }
-
-    .paragraph__Container {
-        
-       
-        display: block;
-        width: 100%;
-    }
-}
+ 
