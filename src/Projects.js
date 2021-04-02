@@ -1,70 +1,53 @@
-import React from 'react'
+import React from 'react';
 import "./Projects.css";
-import Card from 'react-bootstrap/Card'
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 function Projects() {
     return (
-    <div>
-    <div id="about__Div">
+        <div>
+        <div id="about__Div">
         <h1 className="about__Text">Projects</h1>
     </div>
-    
-    <Container>
-        <Row>
-        <Col>1 of 3
-            <Card style={{ width: '18rem' }}>
+          <Container>
+            <Row xs={4} md={8} lg={8}>
+                <Col sm={8}>
+                <Card>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-                    </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                </Card.Text>
                 </Card.Body>
             </Card>
-            
-        
-        </Col>
-        <Col>2 of 3
-        <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+            <br />
+            <Card>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-                    </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                </Card.Text>
                 </Card.Body>
-            </Card>
-        
-        
-        </Col>
-        <Col>3 of 3
-        <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="bottom" src="holder.js/100px180" />
+            </Card><br></br>
+            <Card>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-                    </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                </Card.Text>
                 </Card.Body>
-            </Card>
-        </Col>
-      </Row>
-    </Container>
+                <Card.Img variant="bottom" src="holder.js/100px180" />
+            </Card> 
+            </Col>
+            </Row>
+           
+        </Container>  
+        </div>
+    )
+}
 
-    </div>
-  
-
-
-    )}
-
-export default Projects
+export default Projects;
