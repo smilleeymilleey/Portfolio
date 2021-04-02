@@ -12,4 +12,8 @@ Technologies used:
 HTML, CSS, Javascript, React, Netlify
 
 
+<<<<<<< HEAD
 https://smilleeymilleey.github.io/portfolio/#home
+=======
+https://smilleeymilleey.github.io/portfolio/
+>>>>>>> e15603ac8377ff3899c783c858bff5a4b78acaed
