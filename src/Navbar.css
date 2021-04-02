@@ -11,60 +11,25 @@
 
 }
 
-/* styling icons */
-  #person__Icon {
-    color:lightblue;
-    font-size: 30px;
-  }
-
-  #home__Icon {
-    color: black;
-    font-size: 30px;
-
-  }
-
-  #web__Icon {
-    color: lavender;
-    font-size: 30px;
-  }
-
-  #mail__Icon {
-    color: tan;
-    font-size: 30px;
-     
-  }
-
-
-  .sidebar {
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: darkcyan;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
+.container-fluid{
+  background-color: darkcyan;
+  padding: 1%;
   
-  .sidebar a {
-    display: block;
-    color: white;
-    padding: 30px;
-    font-size: larger;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
-   
-  .sidebar a.active {
-    background-color: white;
-    color: black;
-  }
-  
-  .sidebar a:hover:not(.active) {
-    background-color: lightblue;
-    color: white;
-  }
-  
+}
+
+.nav-link {
+  color: white;
+  font-size: 30px;;
+}
+
+#projects {
+  color: white;
+}
+
+
+
+
+
   div.content {
     margin-left: 200px;
     padding: 1px 16px;

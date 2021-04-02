@@ -1,74 +1,68 @@
 import React from 'react'
 import "./Projects.css";
-import twitter from './twitter.jpg';
-import amazonclone from './amazonclone.jpg';
-import soap from "./soap.PNG";
+import Card from 'react-bootstrap/Card'
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 function Projects() {
-
-  
-
     return (
-       
-
+    <div>
+    <div id="about__Div">
+        <h1 className="about__Text">Projects</h1>
+    </div>
     
-    <div id="projects">
+    <Container>
+        <Row>
+        <Col>1 of 3
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                    </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+            
+        
+        </Col>
+        <Col>2 of 3
+        <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                    </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+        
+        
+        </Col>
+        <Col>3 of 3
+        <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                    </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
+        </Col>
+      </Row>
+    </Container>
 
-        <div id="projects__Div__Container">
-            <h1>
-                Projects
-            </h1>
-        </div>
-
-
+    </div>
   
-        <div className="card__Row">
-            <div className="card__Column">
-                
-                <div className="card">
-
-                  
-                     <img href="https://e-commerce-34a07.web.app/" src={amazonclone} className="card__Image" alt="amazon-clone-website"/>
-                  
-                    <div className="card__Title">
-                        <h1 className="text__Title">Amazon Clone</h1>
-                    </div>
-                </div>
-            </div>
-            <div className="card__Column">
-                <div className="card">
-                   
-                    <img href="https://twitter-clone-1ef21.web.app" className="card__Image" src={twitter} alt="twitter-clone-website"/>
-                    
-                    <div className="card__Title">
-                        <h1 className="text__Title">Twitter Clone</h1>
-                    </div>
-                </div>
-            </div>
-            <div className="card__Column">
-                <div className="card">
-                    <img href="https://soap.netlify.app/"className="card__Image" src={soap}alt="soap-e-commerce-website"/>
-                    <div className="card__Title">
-                        <h1 className="text__Title">Soap E-Commerce </h1>
-                    </div>
-                </div>
-            </div>
-           
-
-           
-
-
-        </div>
-        </div>
-  
-                    
-
-      
-                        
-
-      
-
-
 
 
     )}
